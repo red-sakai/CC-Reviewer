@@ -21,9 +21,14 @@ export default function Hero() {
           <button className="rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white transition-all hover:bg-blue-700 hover:shadow-xl">
             Start Studying
           </button>
-          <button className="rounded-lg border-2 border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-900 transition-all hover:border-slate-400 hover:shadow-xl dark:border-slate-700 dark:bg-slate-800 dark:text-white dark:hover:border-slate-600">
+          <a
+            href="https://docs.google.com/document/d/13T98GQ_ITTrIdKpy14KhCpqGFFFr1NJFEjwA8hHbNCM/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg border-2 border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-900 transition-all hover:border-slate-400 hover:shadow-xl dark:border-slate-700 dark:bg-slate-800 dark:text-white dark:hover:border-slate-600"
+          >
             Study Material
-          </button>
+          </a>
         </div>
       </div>
     </div>
